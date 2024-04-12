@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE462F852BC9D0CB00EAC5EB /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE462F842BC9D0CB00EAC5EB /* RMService.swift */; };
+		FE462F872BC9D0F200EAC5EB /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE462F862BC9D0F200EAC5EB /* RMRequest.swift */; };
+		FE462F892BC9D27000EAC5EB /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE462F882BC9D27000EAC5EB /* RMEndpoint.swift */; };
 		FEBDBC662BC9609A00C6ED7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBDBC652BC9609A00C6ED7C /* AppDelegate.swift */; };
 		FEBDBC682BC9609A00C6ED7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBDBC672BC9609A00C6ED7C /* SceneDelegate.swift */; };
 		FEBDBC6A2BC9609A00C6ED7C /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBDBC692BC9609A00C6ED7C /* RMTabBarController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE462F842BC9D0CB00EAC5EB /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		FE462F862BC9D0F200EAC5EB /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		FE462F882BC9D27000EAC5EB /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
 		FEBDBC622BC9609A00C6ED7C /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBDBC652BC9609A00C6ED7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBDBC672BC9609A00C6ED7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 		FEBDBC7D2BC9626200C6ED7C /* APIClients */ = {
 			isa = PBXGroup;
 			children = (
+				FE462F842BC9D0CB00EAC5EB /* RMService.swift */,
+				FE462F862BC9D0F200EAC5EB /* RMRequest.swift */,
+				FE462F882BC9D27000EAC5EB /* RMEndpoint.swift */,
 			);
 			path = APIClients;
 			sourceTree = "<group>";
@@ -226,8 +235,11 @@
 				FEBDBC662BC9609A00C6ED7C /* AppDelegate.swift in Sources */,
 				FEBDBC832BC966EE00C6ED7C /* RMCharacters.swift in Sources */,
 				FEBDBC8E2BC9684900C6ED7C /* RMSettingsViewController.swift in Sources */,
+				FE462F852BC9D0CB00EAC5EB /* RMService.swift in Sources */,
 				FEBDBC812BC966B600C6ED7C /* RMLocation.swift in Sources */,
+				FE462F892BC9D27000EAC5EB /* RMEndpoint.swift in Sources */,
 				FEBDBC682BC9609A00C6ED7C /* SceneDelegate.swift in Sources */,
+				FE462F872BC9D0F200EAC5EB /* RMRequest.swift in Sources */,
 				FEBDBC882BC967EA00C6ED7C /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
